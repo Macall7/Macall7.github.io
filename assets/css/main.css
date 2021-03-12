@@ -1405,3 +1405,44 @@
 			}
 
 		}
+
+	/* Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.riht-side {
+    display: flex;
+}
+
+.nav-wrapper > .riht-side > div {
+    margin-right: 30px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.nav-wrapper > .left-side > .brand {
+	font-size: 1.5em; color: black;
+}
