@@ -18,6 +18,8 @@ body {
 .brand-title {
     font-size: 1.5rem;
     margin: 0.5rem;
+    font-weight: 500;
+    font: bold;
 }
 
 .navbar-links ul {
@@ -35,6 +37,7 @@ body {
     color: white;
     padding: 1rem;
     display: block;
+    font: caption;
 }
 
 .navbar-links li:hover {
