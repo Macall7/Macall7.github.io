@@ -15,8 +15,11 @@ body {
     background-color: #65dfc9;
     color: white;
     /*padding: 20px;*/
-    padding-recht: 15px;
-    padding-link: 15px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
 }
 
 .brand-title {
