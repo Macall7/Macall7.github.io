@@ -13,7 +13,9 @@ body {
     align-items: center;
     background-color: #65dfc9;
     color: white;
-    padding: 20px;
+    /*padding: 20px;*/
+    align-rechts: 15px;
+    align-links: 15px;
 }
 
 .brand-title {
